@@ -580,7 +580,7 @@ preset_keys:
   Shift_L: { label: "▲", functional: false, send: Shift_L }
   Return:
     { label: enter_labels, preview: "↩", functional: false, send: Return }
-  Return1: { label: "処刑", preview: "↩", functional: false, send: Return }
+  Return1: { label: "确认 ", preview: "↩", functional: false, send: Return }
   Hide: { label: 隐藏, send: BACK }
   BackSpace:
     { label: "⌫", repeatable: true, functional: false, send: BackSpace }
