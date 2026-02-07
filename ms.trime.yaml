@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 config_version: "3.0"
-name: 魔裁 #方案名称
-author: lost-42 #作者信息
+name: 普通配色 #方案名称
+author: Wuke #作者信息 原作者lost-42
 
 #界面风格、功能开关
 style:
@@ -13,14 +13,14 @@ style:
   candidate_font: han.ttf #候选字体
   candidate_padding: 5 #候选项内边距
   candidate_spacing: 0.5 #候选间距
-  candidate_text_size: 18 #候选字号
+  candidate_text_size: 22 #候选字号
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 28 #候选区高度
+  candidate_view_height: 26 #候选区高度
   color_scheme: default #配色方案
   comment_font: comment.ttf #编码提示字体
   comment_height: 14 #编码提示区高度
   comment_on_top: true #编码提示在上方或右侧
-  comment_text_size: 12 #编码提示字号
+  comment_text_size: 10 #编码提示字号
   hanb_font: hanb.ttf #扩充字体
   horizontal: true #水平模式
   horizontal_gap: 12 #键水平间距
@@ -95,113 +95,15 @@ style:
     pre: 上个
     search: 疑问
     send: 发送
-    default: 裁判 # 定义默认Enter键的文本
+    default: Enter # 定义默认Enter键的文本
 
 fallback_colors:
   candidate_text_color: text_color
 
 #配色方案
 preset_color_schemes:
-  default:
-    name: "艾玛/エマ" #方案名称
-    back_color: 0xF2B8CC #背景
-    text_color: 0x000000 #文字
-    key_back_color: 0xF0F4F9 #按键背景
-    hilited_candidate_back_color: 0xED8DA7 #候选高亮背景
-    bc1: 0x29323F # shift
-    tc1: 0xF0F4F9
-    bc2: 0x29323F # BackSpace
-    tc2: 0xF0F4F9
-    bc3: 0x29323F # space
-    tc3: 0xF0F4F9
-    bc4: 0x29323F # enter
-    tc4: 0xF0F4F9
-  hiro:
-    name: "希罗/ヒロ"
-    back_color: 0x10151F #背景
-    text_color: 0xFAE9EF #文字
-    key_back_color: 0xA00B2C #按键背景
-    hilited_candidate_back_color: 0x222B38 #候选高亮背景
-    bc1: 0x700E26
-    tc1: 0xFAE9EF
-    bc2: 0x700E26
-    tc2: 0xFAE9EF
-    bc3: 0x700E26
-    tc3: 0xFAE9EF
-    bc4: 0x700E26
-    tc4: 0xFAE9EF
-  anan:
-    name: "安安/アンアン"
-    back_color: 0x9FB1D5 #背景
-    text_color: 0xDDE9F7 #文字
-    key_back_color: 0x25325D #按键背景
-    hilited_candidate_back_color: 0x4C567A #候选高亮背景
-    bc1: 0xC28651
-    tc1: 0xDDE9F7
-    bc2: 0xC28651
-    tc2: 0xDDE9F7
-    bc3: 0xC28651
-    tc3: 0xDDE9F7
-    bc4: 0xC28651
-    tc4: 0xDDE9F7
-  noa:
-    name: "诺亚/ノア"
-    back_color: 0xF2F1F8 #背景
-    text_color: 0x262A3B #文字
-    key_back_color: 0xC7C3DB #按键背景
-    hilited_candidate_back_color: 0x928CB1 #候选高亮背景
-    bc1: 0xE95F80
-    tc1: 0xF2F1F8
-    bc2: 0x44B9ED
-    tc2: 0xF2F1F8
-    bc3: 0xFBE950
-    tc3: 0x262A3B
-    bc4: 0xFC955F
-    tc4: 0xF2F1F8
-  reia:
-    name: "蕾雅/レイア"
-    back_color: 0xC0AAA2 #背景
-    text_color: 0xF9EBF0 #文字
-    key_back_color: 0x45424A #按键背景
-    hilited_candidate_back_color: 0xB2948A #候选高亮背景
-    bc1: 0xE2A05E
-    tc1: 0xF9EBF0
-    bc2: 0xE2A05E
-    tc2: 0xF9EBF0
-    bc3: 0xE2A05E
-    tc3: 0xF9EBF0
-    bc4: 0xE2A05E
-    tc4: 0xF9EBF0
-  miria:
-    name: "米莉亚/ミリア"
-    back_color: 0xFFD284 #背景
-    text_color: 0x5D555D #文字
-    key_back_color: 0xFDF3F9 #按键背景
-    hilited_candidate_back_color: 0xE0B887 #候选高亮背景
-    bc1: 0x9BABCC
-    tc1: 0xFDF3F9
-    bc2: 0x9BABCC
-    tc2: 0xFDF3F9
-    bc3: 0x9BABCC
-    tc3: 0xFDF3F9
-    bc4: 0x9BABCC
-    tc4: 0xFDF3F9
-  maago:
-    name: "玛格/マーゴ"
-    back_color: 0x3F4658 #背景
-    text_color: 0xE5E9EF #文字
-    key_back_color: 0x8565A9 #按键背景
-    hilited_candidate_back_color: 0x9D81B8 #候选高亮背景
-    bc1: 0x9D81B8
-    tc1: 0xE5E9EF
-    bc2: 0x9D81B8
-    tc2: 0xE5E9EF
-    bc3: 0x9D81B8
-    tc3: 0xE5E9EF
-    bc4: 0x9D81B8
-    tc4: 0xE5E9EF
-  nanoka:
-    name: "奈叶香/ナノカ"
+  night:
+    name: "夜"
     back_color: 0x383B4A #背景
     text_color: 0xFEF2F6 #文字
     key_back_color: 0x2A2D35 #按键背景
@@ -214,76 +116,20 @@ preset_color_schemes:
     tc3: 0xFEF2F6
     bc4: 0x2A2D35
     tc4: 0xFEF2F6
-  arisa:
-    name: "亚里沙/アリサ"
-    back_color: 0x9C9CA7 #背景
-    text_color: 0xB21D26 #文字
-    key_back_color: 0x2F313D #按键背景
-    hilited_candidate_back_color: 0x443A49 #候选高亮背景
-    bc1: 0x443A49
-    tc1: 0xB21D26
-    bc2: 0x443A49
-    tc2: 0xB21D26
-    bc3: 0x443A49
-    tc3: 0xB21D26
-    bc4: 0x443A49
-    tc4: 0xB21D26
-  sherii:
-    name: "雪莉/シェリー"
-    back_color: 0x5890CD #背景
-    text_color: 0x323745 #文字
-    key_back_color: 0xF2F1F8 #按键背景
-    hilited_candidate_back_color: 0xB9CFEC #候选高亮背景
-    bc1: 0xFAB74F
-    tc1: 0x323745
-    bc2: 0xFAB74F
-    tc2: 0x323745
-    bc3: 0xFAB74F
-    tc3: 0x323745
-    bc4: 0xFAB74F
-    tc4: 0x323745
-  hanna:
-    name: "汉娜/ハンナ"
-    back_color: 0x9C9F6C #背景
-    text_color: 0x4F4848 #文字
-    key_back_color: 0xFAE7C3 #按键背景
-    hilited_candidate_back_color: 0xC1C59A #候选高亮背景
-    bc1: 0xF1C45E
-    tc1: 0x4F4848
-    bc2: 0xF1C45E
-    tc2: 0x4F4848
-    bc3: 0xF1C45E
-    tc3: 0x4F4848
-    bc4: 0xF1C45E
-    tc4: 0x4F4848
-  koko:
-    name: "可可/ココ"
-    back_color: 0xE9E3EA #背景
-    text_color: 0xD3441E #文字
-    key_back_color: 0x3D363B #按键背景
-    hilited_candidate_back_color: 0x7E819E #候选高亮背景
-    bc1: 0xD3441E
-    tc1: 0x3D363B
-    bc2: 0xD3441E
-    tc2: 0x3D363B
-    bc3: 0xD3441E
-    tc3: 0x3D363B
-    bc4: 0xD3441E
-    tc4: 0x3D363B
-  meruru:
-    name: "梅露露/メルル"
-    back_color: 0xFDFCFE #背景
-    text_color: 0x1D232F #文字
-    key_back_color: 0xE9C8CB #按键背景
-    hilited_candidate_back_color: 0xC7CEDC #候选高亮背景
-    bc1: 0x606474
-    tc1: 0xFDFCFE
-    bc2: 0x606474
-    tc2: 0xFDFCFE
-    bc3: 0x606474
-    tc3: 0xFDFCFE
-    bc4: 0x606474
-    tc4: 0xFDFCFE
+  default:
+    name: "日"
+    back_color: 0xe0e2e6 #背景
+    text_color: 0x161616 #文字
+    key_back_color: 0xfdfcff #按键背景
+    hilited_candidate_back_color: 0x22c890 #候选高亮背景
+    bc1: 0xb7bcc4
+    tc1: 0x161616
+    bc2: 0xb7bcc4
+    tc2: 0x161616
+    bc3: 0xb7bcc4
+    tc3: 0x161616
+    bc4: 0xb7bcc4
+    tc4: 0x161616
 
 liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
@@ -641,8 +487,8 @@ preset_keyboards:
       - { click: c, long_click: copy, swipe_up: copy }
       - { click: v, long_click: paste, swipe_up: paste }
       - { click: b, long_click: ":", swipe_up: ":" }
-      - { click: n, long_click: ",", swipe_up: "," }
-      - { click: m, long_click: ".", swipe_up: "." }
+      - { click: n, long_click: "/", swipe_up: "/" }
+      - { click: m, long_click: "?", swipe_up: "?" }
       - {
           click: BackSpace,
           width: 15,
@@ -654,16 +500,16 @@ preset_keyboards:
           click: liquid_keyboard_switch,
           long_click: Color_switch,
           swipe_up: Color_switch,
-          width: 12.5,
+          width: 15,
         }
       - {
           click: Keyboard_number,
           long_click: Theme_settings,
           swipe_up: Theme_settings,
-          width: 12.5,
+          width: 13,
         }
-      - { click: space, width: 50, key_back_color: bc3, key_text_color: tc3 }
-      - { click: "/", long_click: "?", swipe_up: "?" }
+      - { click: space, width: 47,= key_back_color: bc3, key_text_color: tc3 }
+      - { click: ",", long_click: ".", swipe_up: "." }
       - {
           click: Return,
           composing: Return1,
@@ -852,7 +698,7 @@ preset_keys:
   Schema_switch: { label: 下一方案, functional: false, send: Control+Shift+1 }
   Schema_Eng: { label: En, functional: true, send: Control+Shift+0 }
   Theme_settings: { label: 主题, send: SETTINGS, option: "theme" }
-  Color_switch: { label: 换人, functional: false, send: PROG_RED }
+  Color_switch: { label: 配色, functional: false, send: PROG_RED }
   Help: { label: 说明, send: Help }
   Info: { label: 关于, send: INFO }
   Menu: { label: 方案, functional: false, send: Menu }
