@@ -87,13 +87,13 @@ style:
   text_size: 14 #编码区字号
   vertical_correction: -5
   vertical_gap: 8 #键盘行距
-  enter_label_mode: 0 #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
+  enter_label_mode: 0 #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel（会崩溃），2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels: # 定义Enter键的文本
     go: 赞同
     done: 完成
     next: 下个
     pre: 上个
-    search: 疑问
+    search: 搜索
     send: 发送
     default: Enter # 定义默认Enter键的文本
 
@@ -106,7 +106,7 @@ preset_color_schemes:
     name: "夜"
     back_color: 0x383B4A #背景
     text_color: 0xFEF2F6 #文字
-    key_back_color: 0xf2f3f4 #按键背景
+    key_back_color: 0x2A2D35 #按键背景
     hilited_candidate_back_color: 0x0B0D11 #候选高亮背景
     bc1: 0x2A2D35
     tc1: 0xFEF2F6
@@ -291,7 +291,7 @@ tool_bar:
       *full_shape_button,
       *clipboard_button,
       *emoji_button,
-      *ascii_mode_button,
+     # *ascii_mode_button,
     ]
 
 #键盘布局
