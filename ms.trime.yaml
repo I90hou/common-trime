@@ -82,7 +82,7 @@ style:
   shadow_radius: 0.5 #按键阴影半径
   speech_opencc_config: none #语音输入简繁转换
   symbol_font: symbol.ttf #符号字体
-  symbol_text_size: 10 #符号字号
+  symbol_text_size: 8 #符号字号
   text_font: latin.ttf #编码字体
   text_size: 14 #编码区字号
   vertical_correction: -5
